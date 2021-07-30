@@ -3,6 +3,7 @@
 @section('content')
 
 <br>
+<a href="{{ url('ns1/create') }}">Ajouter une video</a>
 @foreach ($videos as $video )
 
 <h3>{{ $video->titre }}</h3>

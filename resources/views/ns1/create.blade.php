@@ -2,10 +2,13 @@
 
 @section('content')
 <div class="container">
+
+
 @if (session('status'))
     <h6>{{ session('status') }}</h6>
 @endif
     
+<a href="{{ url('ns1') }}">Back</a>
 
     <meta charset="UTF-8">
     <form action="{{ url('/ns1/create') }}" method="POST" enctype="multipart/form-data">
