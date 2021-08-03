@@ -1,0 +1,133 @@
+
+.vert{
+    color: #00B9AA;
+}
+
+.vert1{
+    color: #036476;
+}
+
+.blanc{
+    color: white;
+}
+
+.bg-vert{
+    background-color: #036476;
+    color: white;
+}
+
+.bg-vert1{
+    background-color: #00B9AA;
+    color: white;
+}
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00B9AA; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(63, 59, 59); /* Add background on hover */
+  }
+
+
+  #navPanel{
+    margin-top: 1px;
+    margin-left: -15px;
+    height: 590px;
+    overflow-y: scroll;
+    visibility:initial;
+    
+      
+}
+
+body{
+    background-color: lightgray;
+}
+
+#infoCard{
+    text-align: center;
+    font-size: larger;
+    width: 890px; 
+    margin-left: -31px;
+    margin-top: -10px;
+    margin-left: -25px;
+    background-color: #036476;
+    
+}
+
+#navTitle{
+margin-bottom: 15px;
+width: 1330px;
+margin-left: 10px;
+border-radius: 5px;
+background-color:#00B9AA;
+}
+
+#write{
+    text-align: left;
+    font-size: small;
+}
+
+#arrow{
+    width: 40px;
+    height: 35px;
+}
+
+#video{
+    /* border:; */
+    margin-top: -1px;
+    margin-left: -25px;
+    width: 890px; 
+}
+
+.bs-example{
+    margin: 20px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
+
+#cardTitle{
+padding: 10px;
+}
+#footer{
+    text-align: center; 
+    color:white;
+    bottom: 0;
+    padding: 20px;
+    width: 362px;
+    height: 87px;
+    margin: auto;
+    position:fixed;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #036476;
+}
+#footer2{
+    text-align: left; 
+    color:white;
+    bottom: 0;
+    float: left;
+    padding: 20px;
+    width: 890px;
+    height: 87px;
+    position:relative;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-top: 10px;
+    background-color: #036476;
+}
