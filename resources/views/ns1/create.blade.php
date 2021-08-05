@@ -34,7 +34,7 @@
     <div class="field">
         <!-- <label class="label">Commentaire</label> -->
         <div class="form-group mx-sm-4 mb-4">
-            <textarea name="commentaire" class="textarea" placeholder="commentaire" minlength="5" maxlength="2000" required rows="2">{{ old('commentaire') }}</textarea>
+            <textarea name="commentaire" class="textarea" placeholder="commentaire" minlength="5" maxlength="2000" rows="2">{{ old('commentaire') }}</textarea>
         </div>
     </div>
 

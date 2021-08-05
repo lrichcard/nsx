@@ -13,6 +13,6 @@ class Ns1 extends Model
         'titre',
         'video',
         'objectif',
-      
+        'commentaire'
     ];
 }

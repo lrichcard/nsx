@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Ns1Controller;
+use App\Http\Controllers\Ns2Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,7 @@ Route::get('edit_ns1/{id}/', [Ns1Controller::class, 'edit']);
 Route::put('update/{id}', [Ns1Controller::class, 'update']);
 Route::delete('delete/{id}', [Ns1Controller::class, 'destroy']);
 // Route::get('delete/{id}', [Ns1Controller::class, 'destroy']);
+
+Route::get('/ns2', [Ns2Controller::class, 'index']);
+Route::get('/ns2/create', [Ns2Controller::class, 'create']);
+Route::post('/ns2/create', [Ns2Controller::class, 'store']);

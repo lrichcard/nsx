@@ -30,11 +30,12 @@ class Ns1Controller extends Controller
        $ns1Video->objectif = $request->input('objectif');
        $ns1Video->commentaire = $request->input('commentaire');
 
+       $titre = $request->input('titre');
        if($request->hasfile('video_name'))
        {
            $file = $request->file('video_name');;
            $extension = $file->getClientOriginalExtension();
-           $filename = time().'.'.$extension;
+           $filename = $titre.'-'.time().'.'.$extension;
            $file->move('uploads/ns1/', $filename);
            $ns1Video->video = $filename;
           
@@ -94,8 +95,7 @@ if(File::exists($destination))
 
 
 $video->delete();
-return redirect()->back()->with('status','La video a ete supprim
-é avec success');
+return redirect()->back()->with('status','La video a ete supprimé avec success');
 
 }
 
